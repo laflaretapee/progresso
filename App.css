@@ -1,0 +1,125 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  }
+  header {
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  }
+  h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  }
+  form {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  max-width: 405px;
+  padding: 30px;
+  }
+  input[type="text"], input[type="number"] {
+  width: 70%;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 16px;
+  }
+  button {
+  margin-left: 8px;
+  background-color: #000000;
+  color: #fff;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 34px;
+  }
+  button:hover {
+  background-color: #252b32;
+  }
+  ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin-left: 50px;
+  }
+  li {
+  background-color: #ebebeb;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .goal-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .goal-container > *:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 28px; /* Уменьшаем размер заголовка */
+    }
+  
+    form {
+      margin: 10px auto;
+      padding: 10px;
+      max-width: 90%; /* Уменьшаем ширину формы на мобильных */
+    }
+  
+    input[type="text"],
+    input[type="number"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px;
+      
+    }
+  
+    ul {
+      margin: 10px auto;
+      max-width: 90%; /* Делаем список шириной 90% экрана */
+    }
+  
+    li {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .goal-container {
+      padding: 15px;
+      max-width: 370px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    button {
+      font-size: 12px;
+    }
+  
+    li {
+      font-size: 18px;
+    }
+  }
+
+  
